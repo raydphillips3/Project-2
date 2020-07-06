@@ -2,3 +2,35 @@ form.signup,
 form.login {
   margin-top: 50px;
 }
+/* Button colors */
+.btn-default {
+  color: whitesmoke;
+  background-color: #254881;
+  border-color: #254881;
+}
+/* Navbar colors */
+.navbar-default {
+  background-color: #F1EEE6;
+  border-color: #e7e7e7;
+}
+/* Top row of text like Login and Sign Up Form */
+h2 {
+  text-align: center;
+  color: #73728B;
+}
+
+.row {
+  background-color: black;
+}
+
+.login {
+  color: #73728B;
+}
+
+.signup {
+  color: #73728B;
+}
+
+body {
+  background-color: #888D81;
+}
