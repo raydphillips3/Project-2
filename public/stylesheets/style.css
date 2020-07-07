@@ -16,11 +16,18 @@ form.login {
 /* Top row of text like Login and Sign Up Form */
 h2 {
   text-align: center;
-  color: #73728B;
 }
+
 
 .row {
   background-color: black;
+  background-image: url(https://wallpaperset.com/w/full/d/e/8/7662.jpg);
+  /* Full height */
+  height: 100%; 
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .login {
@@ -32,5 +39,47 @@ h2 {
 }
 
 body {
-  background-color: #888D81;
+    background-image: url(https://coolbackgrounds.io/images/unsplash/josh-bean-medium-9501ba9f.jpg);
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.col-sm {
+  padding-top: 10px;
+
+}
+.card-body {
+  background-color: blanchedalmond;
+  padding: 15px;
+  border-radius: 15px;
+  margin-inline-start: 15px;
+  margin-top: 15px;
+  padding-top: 20px;
+  border-top: 20px;
+}
+
+.card-subtitle {
+  color: black;
+}
+
+.responsive {
+  width: 500px;
+  height: 100px;
+  text-align: center;
+}
+
+.container {
+  background-image: url(https://i.pinimg.com/originals/68/6f/22/686f2228249a21398ad971c693b20d12.jpg);
+   /* Full height */
+   height: 100%; 
+
+   /* Center and scale the image nicely */
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
 }
