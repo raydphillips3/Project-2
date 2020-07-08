@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/lumen/bootstrap.min.css">
   <link href="stylesheets/style.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/luxon/1.24.1/luxon.min.js"></script>
 </head>
 
 <body>
@@ -21,15 +22,18 @@
   </nav>
   <br>
   <div class="container">
-    <div class="row">
+    <div class="rowHeader">
       <div class="col-md-6 col-md-offset-3">
-        <h2>Member's Only<span class="member-name"></span></h2>
+        <h2><span class="member-name">Member's Club</span></h2>
       </div>
     </div>
   </div>
 
   <br><br>
-  <div class="container">
+
+  <div id="output">Time: </div>
+
+  <div class="container1">
     <div class="rowMember">
       <div class="col-sm">
       <div class="card" style="width: 25rem;">
@@ -75,14 +79,8 @@
 
         </div>
       </div>
-
-
-
-
-
-
-
-      <!-- Optional JavaScript -->
+</body>
+ <!-- Optional JavaScript -->
       <!-- jQuery first, then Popper.js, then Bootstrap JS -->
       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -93,11 +91,7 @@
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
+      <script src="js/luxon.js"></script>
       <script type="text/javascript" src="js/members.js"></script>
-
-
-
-
-</body>
-
+      
 </html>
