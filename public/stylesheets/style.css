@@ -2,7 +2,6 @@ form.signup,
 form.login {
   margin-top: 50px;
 }
-<<<<<<< HEAD
 /* Button colors */
 .btn-default {
   color: whitesmoke;
@@ -11,12 +10,13 @@ form.login {
 }
 /* Navbar colors */
 .navbar-default {
-  background-color: #F1EEE6;
-  border-color: #e7e7e7;
+  background-color: #4682b4;
+  border-bottom: purple;
 }
 /* Top row of text like Login and Sign Up Form */
 h2 {
   text-align: center;
+  color: antiquewhite;
 }
 
 
@@ -32,12 +32,15 @@ h2 {
 }
 
 .login {
-  color: #73728B;
+  color: antiquewhite;
 }
 
 .signup {
-  color: #73728B;
+  color:antiquewhite;
 }
+ p {
+  color:antiquewhite;
+ }
 
 body {
     background-image: url(https://coolbackgrounds.io/images/unsplash/josh-bean-medium-9501ba9f.jpg);
@@ -74,7 +77,7 @@ body {
   text-align: center;
 }
 
-.container {
+.container1 {
   background-image: url(https://i.pinimg.com/originals/68/6f/22/686f2228249a21398ad971c693b20d12.jpg);
    /* Full height */
    height: 100%; 
@@ -84,5 +87,48 @@ body {
    background-repeat: no-repeat;
    background-size: cover;
 }
-=======
->>>>>>> a995c8b... pusing
+
+.nav-item {
+  text-align: end;
+}
+
+#output {
+  text-align: center;
+  color: black;
+}
+
+
+h4 {
+  font-family: cursive;
+  font-size: 25px;
+  text-align: center;
+  color: antiquewhite;
+}
+h5 {
+  font-family: fantasy;
+  font-size: 20px;
+  text-align: center;
+}
+
+.member-name {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 50px;
+}
+
+/* Luxon formatting */
+ main {
+  text-shadow: 2px 2px 5px #0074D9;
+  border: 5px;
+  }
+
+#output {
+  width: 100px;
+  padding: 10px;
+  border: 50px orangered;
+  background-color: lightcoral;
+  margin-left: auto;
+  text-align: center;
+  border-radius: 50px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
