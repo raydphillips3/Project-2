@@ -17,6 +17,9 @@ module.exports = {
       scheduled: {
         type: Sequelize.BOOLEAN
       },
+      gameDay: {
+        type: Sequelize.DATE
+      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE
