@@ -15,7 +15,8 @@ module.exports = (sequelize, DataTypes) => {
     {
       homeTeam: DataTypes.STRING,
       awayTeam: DataTypes.STRING,
-      scheduled: DataTypes.BOOLEAN
+      scheduled: DataTypes.BOOLEAN,
+      gameDay: DataTypes.DATE
     },
     {
       sequelize,
