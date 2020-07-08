@@ -38,4 +38,4 @@ This project will allow fans/users to sign-up, select a league and/or team, a da
 
 ## Video:
 - If you want to see a video of this application running please click here:
-[Video](Left intentionally blank)
+[Video]<iframe src="https://drive.google.com/file/d/1hrV03CGK9bR-YtirsNvFeYZ4XPzQly1q/preview" width="640" height="480"></iframe>
