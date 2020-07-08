@@ -2,6 +2,7 @@ form.signup,
 form.login {
   margin-top: 50px;
 }
+<<<<<<< HEAD
 /* Button colors */
 .btn-default {
   color: whitesmoke;
@@ -83,3 +84,5 @@ body {
    background-repeat: no-repeat;
    background-size: cover;
 }
+=======
+>>>>>>> a995c8b... pusing
