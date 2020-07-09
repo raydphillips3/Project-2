@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Passport Authentication</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/lumen/bootstrap.min.css">
+  <link href="stylesheets/style.css" rel="stylesheet">
+</head>
+
+<body style="background-color: pink; font-weight: bold;">
+  <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/logout">
+        Logout
+      </a>
+    </div>
+  </div>
+</nav>
+  <div class="container" style="font-weight: bold;">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <h2 style="font-weight: bolder;">Welcome to the MLB 2020 Season! <span class="member-name"></span></h2>
+      </div>
+      <div class="col-md-6 col-md-offset-3">
+        <h2 style="font-weight: bolder;">MLB Games</h2>
+      </div>
+
+      <div class="col-md-6 col-md-offset-3">
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <label class="input-group-text" for="inputGroupSelectMLB" style="font-weight: bolder; font-size: 18px;">Select A Team For Home Games</label>
+          </div>
+          <select class="custom-select" id="inputGroupSelectMLB">
+            <option selected>Choose...</option>
+            <option value="ATL">Atlanta Braves</option>
+            <option value="ARI">Arizona Diamondbacks</option>
+            <option value="BAL">Baltimore Orioles</option>
+            <option value="BOS">Boston Red Sox</option>
+            <option value="CHC">Chicago Cubs</option>
+            <option value="CIN">Cincinnati Reds</option>
+            <option value="CHW">Chicago White Sox</option>
+            <option value="CLE">Cleveland Indians</option>
+            <option value="COL">Colorado Rockies</option>
+            <option value="DET">Detroit Tigers</option>
+            <option value="HOU">Houston Astros</option>
+            <option value="KC">Kansas City Royals</option>
+            <option value="LAD">Los Angeles Dodgers</option>
+            <option value="LAA">Los Angeles Angels</option>
+            <option value="MIA">Miami Marlins</option>
+            <option value="MIL">Milwaukee Brewers</option>
+            <option value="MIN">Minnesota Twins</option>
+            <option value="NYM">New York Mets</option>
+            <option value="NYY">New York Yankees</option>
+            <option value="OAK">Oakland Athletics</option>
+            <option value="PHI">Philadelphia Phillies</option>
+            <option value="PIT">Pittsburgh Pirates</option>
+            <option value="SD">San Diego Padres</option>
+            <option value="SF">San Francisco Giants</option>
+            <option value="SEA">Seattle Mariners</option>
+            <option value="STL">St. Louis Cardinals</option>
+            <option value="TB">Tampa Bay Rays</option>
+            <option value="TEX">Texas Rangers</option>
+            <option value="TOR">Toronto Blue Jays</option>
+            <option value="WSH">Washington Nationals</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <div id="schedule" style="font-weight: bold";> 
+          <p style="font-size: 18px;">Scheduled Games and Staus</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/mlb.js"></script>
+
+
+</body>
+
+</html>
